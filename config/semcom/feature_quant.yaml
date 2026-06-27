@@ -1,0 +1,13 @@
+name: deepjscc
+channel_dim: 12
+snr_db: 10.0
+snr_min: -10.0
+snr_max: 20.0
+channel_type: awgn
+weights: null
+trainable: false
+domain: feature
+feature_channels: 128
+method: pca_quant
+quant_bits: 2
+pca_path: checkpoints/feature_pca.pt

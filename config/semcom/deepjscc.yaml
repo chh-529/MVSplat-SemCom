@@ -1,0 +1,8 @@
+name: deepjscc
+channel_dim: 12  # bandwidth ratio = channel_dim / 96 (12 -> 1/8)
+snr_db: 10.0  # set to null to sample uniformly from [snr_min, snr_max]
+snr_min: 0.0
+snr_max: 20.0
+channel_type: awgn
+weights: null
+trainable: false

@@ -1,0 +1,4 @@
+name: degradation
+kind: noise  # noise | blur
+strength: 0.1  # noise: std in [0,1]; blur: Gaussian sigma (px)
+correlation: independent  # independent | shared (noise only)

@@ -1,0 +1,10 @@
+name: deepjscc
+channel_dim: 12  # latent 12x64x64 -> same R=1/8 as pixel-domain JSCC
+snr_db: 10.0  # null to sample uniformly from [snr_min, snr_max]
+snr_min: -10.0
+snr_max: 20.0
+channel_type: awgn
+weights: null
+trainable: true
+domain: feature
+feature_channels: 128
